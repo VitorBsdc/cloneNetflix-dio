@@ -11,14 +11,15 @@
 
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
+    color: white;
 }
 
 header .container{
     display: flex;/*Flexivilidade da div*/
     flex-direction: row;/*Direção em linhas dos elementos*/
-    align-items: center;/*Alinhamento no eixo y*/
-    justify-content: space-between;/*Alinhamento no eixo x*/
+    align-items: center;/*Alinhamento no eixo x*/
+    justify-content: space-between;/*Alinhamento no eixo y*/
 }
 
 header .logo{
@@ -36,4 +37,26 @@ header nav a{
 
 header nav a:hover{
     color: #fff;
+}
+
+/*Filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/capa-house.jpg');/*Imagem principal como background + gradient*/
+
+    height: 500px;
+    background-size: cover;/*Para imagem ir para trás do texto*/
+
+    display: flex;/*Flexivilidade da div*/
+    flex-direction: column;/*Direção em colunas dos elementos*/
+    justify-content: center;/*Alinhamento no eixo y*/
+    align-items: flex-start;/*Alinhamento no eixo x*/
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 40px;
 }
