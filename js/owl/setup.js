@@ -1,6 +1,6 @@
 $('.owl-carousel').owlCarousel({
     loop:true,//Carrosel infinito
-    margin:10,
+    margin:15,
     nav:false,//Botãozinho de navegação
     responsive:{
         0:{
