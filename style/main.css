@@ -44,7 +44,7 @@ header nav a:hover{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/capa-house.jpg');/*Imagem principal como background + gradient*/
 
-    height: 500px;
+    height: 800px;/*Tamanho inicial da img*/
     background-size: cover;/*Para imagem ir para trás do texto*/
 
     display: flex;/*Flexivilidade da div*/
@@ -84,4 +84,19 @@ header nav a:hover{
 }
 .botao i{
     margin-right: 8px;
+}
+
+.container{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
