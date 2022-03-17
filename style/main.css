@@ -20,6 +20,7 @@ header .container{
     flex-direction: row;/*Direção em linhas dos elementos*/
     align-items: center;/*Alinhamento no eixo x*/
     justify-content: space-between;/*Alinhamento no eixo y*/
+    padding: 10px;
 }
 
 header .logo{
@@ -44,7 +45,7 @@ header nav a:hover{
 /*Filme principal*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/capa-house.jpg');/*Imagem principal como background + gradient*/
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/capa-house.jpg');/*Imagem principal como background + gradient*/
 
     height: 800px;/*Tamanho inicial da img*/
     background-size: cover;/*Para imagem ir para trás do texto*/
