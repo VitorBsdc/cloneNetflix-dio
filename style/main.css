@@ -45,7 +45,7 @@ header nav a:hover{
 /*Filme principal*/
 .filme-principal{
     font-size: 16px;
-    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/capa-house.jpg');/*Imagem principal como background + gradient*/
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('https://www.rbsdirect.com.br/imagesrc/17239157.jpg?w=700');/*Imagem principal como background + gradient*/
 
     height: 800px;/*Tamanho inicial da img*/
     background-size: cover;/*Para imagem ir para trás do texto*/
