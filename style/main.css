@@ -25,8 +25,10 @@ header .container{
 header .logo{
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: 'Arial Black', Times;
+    font-family: 'Arial', Times;
     font-size: 40px;
+
+    cursor: pointer;
 }
 
 header nav a{
@@ -100,8 +102,32 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+
+    /*Minha edição*/
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 0px 40px;
 }
 
 .carrosel-filmes{
     margin-top: 5px;
+}
+
+/*Minha edição*/
+.titulo-carrosel{
+    margin-left: 30px;
+    padding: 15px;
+}
+
+footer{
+    background-color: rgb(233, 48, 48);
+    display: flex;/*Flexivilidade da div*/
+    flex-direction: row;/*Direção em linhas dos elementos*/
+    align-items: center;/*Alinhamento no eixo x*/
+    justify-content: center;/*Alinhamento no eixo y*/
+    padding: 10px;
+    margin-top: 20px;
+}
+.img-footer{
+    margin-left: 10px;
 }
